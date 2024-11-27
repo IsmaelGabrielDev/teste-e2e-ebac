@@ -9,7 +9,6 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
       Adicionando ao carrinho
       Preenchendo todas opções no checkout
       E validando minha compra ao final */
-
   beforeEach(() => {
       cy.visit('minha-conta/')
       cy.login('aluno_ebac@teste.com' , 'teste@teste.com')

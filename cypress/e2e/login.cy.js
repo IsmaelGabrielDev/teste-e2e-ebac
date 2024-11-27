@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-let dadosLogin
+let dadosLogin //variavel global, qualquer lugar
 
 context('Funcionalidade Login', () => {
     before(() => {
